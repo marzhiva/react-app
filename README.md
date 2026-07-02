@@ -1,0 +1,166 @@
+# The Canvas Room
+
+A fully responsive three-page React art gallery experience built with React Router, SCSS and theme/language context. The Canvas Room is a modern, elegant digital art exhibition platform that showcases masterpieces from the Art Institute of Chicago with bilingual support (English and Georgian) and a dark/light theme toggle.
+
+## 🎨 Project Overview
+
+**The Canvas Room** is a contemporary digital gallery application designed to provide an accessible experience of fine art. The platform features:
+
+- **Three-page responsive experience** with smooth navigation and elegant design
+- **Dynamic art collection** powered by the Metropolitan Museum of Art API
+- **Bilingual interface** supporting English (EN) and Georgian (GE) languages
+- **Theme customization** with light and dark mode toggle
+- **Advanced search functionality** to explore artworks by title or artist
+- **Booking system** for reserving digital tours with form validation
+- **Fully accessible UI** with semantic HTML and ARIA labels
+
+## 🛠️ Technology Stack
+
+- **Frontend Framework**: [React](https://react.dev/) 18.3.1
+- **Routing**: [React Router](https://reactrouter.com/) 6.21.1
+- **HTTP Client**: [Axios](https://axios-http.com/) 1.7.4
+- **Styling**: [SASS/SCSS](https://sass-lang.com/) 1.77.1
+- **Language**: [TypeScript](https://www.typescriptlang.org/) 5.6.3
+- **Build Tool**: [Vite](https://vitejs.dev/) 5.4.10
+- **Runtime**: [Node.js](https://nodejs.org/) with ES Modules
+
+## 🚀 Getting Started
+
+### Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/marzhiva/react-app.git
+   cd react-app
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+### Running the Application
+
+- **Development server** (with hot reload)
+
+  ```bash
+  npm run dev
+  ```
+
+  The app will be available at `http://localhost:5173`
+
+- **Production build**
+
+  ```bash
+  npm run build
+  ```
+
+  Generates optimized files in the `dist/` directory
+
+- **Preview production build**
+  ```bash
+  npm run preview
+  ```
+  Serves the production build locally for testing
+
+## 📄 Pages & Features
+
+### 🏠 Home Page (`/`)
+
+- **Hero Section**: Eye-catching banner image with exhibition title and subtitle
+- **Introduction**: Welcome message explaining the gallery's philosophy
+- **Call-to-Action**: "Explore Collection" button linking to the gallery
+
+<img width="1289" height="643" alt="image" src="https://github.com/user-attachments/assets/5aed101d-a58b-4885-b950-af0269e087a0" />
+
+### 🎭 Gallery Page (`/gallery`)
+
+- **Dynamic Collection**: Displays artworks from the Metropolitan Museum of Art API
+- **Live Search**: Filter artworks by title or artist name in real-time
+- **Responsive Grid**: Adapts to different screen sizes (mobile, tablet, desktop)
+- **Artwork Cards**: Show title, artist, and images
+- **Modal Viewer**: Click any artwork to see:
+  - High-resolution image
+  - Full artwork details (medium, department)
+  - Favorite button with heart icon
+- **Favorites System**:
+  - Mark/unmark favorite artworks
+  - Storage using localStorage
+  - Visual indicator on favorite items
+- **Error Handling**: User-friendly error messages
+
+  <img width="1280" height="643" alt="image" src="https://github.com/user-attachments/assets/155659da-329a-482b-a0e9-104bcb9adf7b" />
+  <img width="1148" height="635" alt="image" src="https://github.com/user-attachments/assets/59388731-d873-47d8-98d1-aabc835ef8de" />
+
+### 📍 Visit Page (`/visit`)
+
+- **Visit Information**:
+  - Opening hours display
+  - Gallery address
+  - Introduction to the digital tour experience
+- **Tour Booking Form**:
+  - Full-stack form validation
+  - Fields: Name, Email, Date
+  - Real-time error messaging
+  - Success confirmation
+- **Guest Greeting**: Shows returning visitor's name using sessionStorage
+- **Responsive Layout**: Two-column design on desktop, stacked on mobile
+
+<img width="1191" height="644" alt="image" src="https://github.com/user-attachments/assets/d9c704b7-fe7a-40b2-8aa0-dde5d26758aa" />
+
+## 🎯 Key Features in Detail
+
+### Context-Based State Management
+
+#### **ThemeContext**
+
+- Toggles between light and dark themes
+
+#### **LanguageContext**
+
+- Supports English (EN) and Georgian (GE)
+
+### Data Integration
+
+**Metropolitan Museum of Art API** (Free, No Authentication Required)
+
+- Searches for artworks with images
+- Fetches detailed metadata for each artwork
+- Handles API rate limits gracefully
+
+### Storage Mechanisms
+
+- **localStorage**: Persists theme preference and favorites across sessions
+- **sessionStorage**: Maintains guest name during current browser session
+
+## 📱 Responsive Design
+
+The application is fully responsive across:
+
+- **Mobile** (< 768px): Single-column layouts, touch-friendly controls
+- **Tablet** (768px - 1024px): Optimized grid layouts
+- **Desktop** (> 1024px): Full-featured multi-column layouts
+
+### Deployment Ready
+
+The `dist/` folder generated by `npm run build` can be deployed to any static hosting service:
+
+- Vercel
+- Netlify
+- GitHub Pages
+- AWS S3
+- Any CDN
+
+## 📖 Scripts Reference
+
+| Command           | Purpose                                  |
+| ----------------- | ---------------------------------------- |
+| `npm install`     | Install all dependencies                 |
+| `npm run dev`     | Start development server with hot reload |
+| `npm run build`   | Create optimized production build        |
+| `npm run preview` | Serve production build locally           |
+
+**Built with ❤️ as a modern digital art gallery experience**
+
+_The Canvas Room - Where art meets technology_
