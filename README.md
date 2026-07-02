@@ -26,6 +26,10 @@ A fully responsive three-page React art gallery experience built with React Rout
 
 ## 🚀 Getting Started
 
+### Deployment Link
+
+https://marzhiva.github.io/react-app
+
 ### Installation
 
 1. **Clone the repository**
@@ -37,7 +41,7 @@ A fully responsive three-page React art gallery experience built with React Rout
 
 2. **Install dependencies**
    ```bash
-   npm install
+   npm install --force
    ```
 
 ### Running the Application
@@ -72,7 +76,7 @@ A fully responsive three-page React art gallery experience built with React Rout
 - **Introduction**: Welcome message explaining the gallery's philosophy
 - **Call-to-Action**: "Explore Collection" button linking to the gallery
 
-<img width="1289" height="643" alt="image" src="https://github.com/user-attachments/assets/5aed101d-a58b-4885-b950-af0269e087a0" />
+<img width="1266" height="638" alt="image" src="https://github.com/user-attachments/assets/a4dda01a-b4d6-46d1-8ec8-a00372adfda7" />
 
 ### 🎭 Gallery Page (`/gallery`)
 
@@ -89,9 +93,9 @@ A fully responsive three-page React art gallery experience built with React Rout
   - Storage using localStorage
   - Visual indicator on favorite items
 - **Error Handling**: User-friendly error messages
-
-  <img width="1280" height="643" alt="image" src="https://github.com/user-attachments/assets/155659da-329a-482b-a0e9-104bcb9adf7b" />
-  <img width="1148" height="635" alt="image" src="https://github.com/user-attachments/assets/59388731-d873-47d8-98d1-aabc835ef8de" />
+  
+<img width="1200" height="641" alt="image" src="https://github.com/user-attachments/assets/79a2fceb-6bcc-491f-9847-83ef4ce37fa1" />
+<img width="785" height="594" alt="image" src="https://github.com/user-attachments/assets/c154ac20-4cf0-463e-a0c5-8f029f9743f0" />
 
 ### 📍 Visit Page (`/visit`)
 
@@ -107,7 +111,8 @@ A fully responsive three-page React art gallery experience built with React Rout
 - **Guest Greeting**: Shows returning visitor's name using sessionStorage
 - **Responsive Layout**: Two-column design on desktop, stacked on mobile
 
-<img width="1191" height="644" alt="image" src="https://github.com/user-attachments/assets/d9c704b7-fe7a-40b2-8aa0-dde5d26758aa" />
+<img width="1190" height="640" alt="image" src="https://github.com/user-attachments/assets/9e782e99-38a0-4c1d-8855-2c02ec7465c2" />
+
 
 ## 🎯 Key Features in Detail
 
